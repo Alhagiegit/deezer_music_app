@@ -1,0 +1,28 @@
+.container__music__player {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: calc(100vw / 2 - 300px);
+  width: 600px;
+  height: 100px;
+background-color: white;
+animation: all ease-in-out 1s;
+z-index: 1000;
+border: gray solid ;
+}
+
+.music__player{
+  animation: all ease-in-out 1s !important;
+
+}
+
+.zero {
+  bottom: 0px !important;
+}
+
+.negative {
+  bottom: -100px !important;  
+}
+
